@@ -1,0 +1,2 @@
+export const ULCER_INIT			 = 'ULCER_INIT'
+export const ULCER_SUBMIT_BEFORE = 'ULCER_SUBMIT_BEFORE'

@@ -1,0 +1,2 @@
+export const GAD7_INIT 			= 'GAD7_INIT'
+export const GAD7_SUBMIT_BEFORE = 'GAD7_SUBMIT_BEFORE'

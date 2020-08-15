@@ -1,0 +1,1 @@
+export const PATIENT_INIT = 'PATIENT_INIT'

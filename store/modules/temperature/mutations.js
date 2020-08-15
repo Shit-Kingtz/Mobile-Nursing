@@ -1,0 +1,3 @@
+export const NOW_INIT = 'NOW_INIT'
+export const SET_TEMPERATURE_CONTENT  = 'SET_TEMPERATURE_CONTENT'
+

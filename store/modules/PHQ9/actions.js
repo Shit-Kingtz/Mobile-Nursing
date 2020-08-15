@@ -1,0 +1,2 @@
+export const PHQ9_INIT 			= 'PHQ9_INIT'
+export const PHQ9_SUBMIT_BEFORE = 'PHQ9_SUBMIT_BEFORE'

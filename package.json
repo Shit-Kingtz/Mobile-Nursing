@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "axios": "^0.18.0",
+    "uni-request": "^1.0.2"
+  }
+}

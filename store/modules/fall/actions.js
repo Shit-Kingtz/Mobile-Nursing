@@ -1,0 +1,2 @@
+export const FALL_INIT			= 'FALL_INIT'
+export const FALL_SUBMIT_BEFORE = 'FALL_SUBMIT_BEFORE'

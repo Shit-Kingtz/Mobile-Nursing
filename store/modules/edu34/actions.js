@@ -1,0 +1,2 @@
+export const EDU34_INIT 		 = 'EDU34_INIT'
+export const EDU34_SUBMIT_BEFORE = 'EDU34_SUBMIT_BEFORE'

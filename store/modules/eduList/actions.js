@@ -1,0 +1,2 @@
+export const EDU_LIST_INIT = 'EDU_LIST_INIT'
+export const EDU_LIST_DELETE = 'EDU_LIST_DELETE'

@@ -1,0 +1,275 @@
+{
+    "pages" : [
+        // pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+//         {
+//             "path" : "pages/login/login",
+//             "style" : {
+//                 "navigationBarTitleText" : "登录"
+//             }
+//         },
+		{
+            "path" : "pages/patientList/patientList",
+            "style" : {
+                "navigationBarTitleText" : "病人列表",
+                "enablePullDownRefresh" : true
+            }
+        },
+		{
+		    "path" : "pages/login/login"
+		},
+        {
+            "path" : "pages/patientDetail/patientDetail",
+            "style" : {
+                "navigationBarTitleText" : "病人详情"
+            }
+        },
+        {
+            "path" : "pages/infusion/infusion/infusion",
+            "style" : {
+                "navigationBarTitleText" : "输液"
+            }
+        },
+        {
+            "path" : "pages/infusion/record/record",
+            "style" : {
+                "navigationBarTitleText" : "输液记录"
+            }
+        },
+        {
+            "path" : "pages/assessment/list/list",
+            "style" : {
+                "navigationBarTitleText" : "评估单列表",
+                "app-plus" : {
+                    "titleNView" : {
+                        "buttons" : [
+                            {
+                                "text" : "\ue627",
+                                "fontSrc" : "/static/iconfont.ttf",
+                                "fontSize" : "30px",
+                                "color" : "#FFFFFF"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "path" : "pages/assessment/inPatient/inPatient",
+            "style" : {
+                "navigationBarTitleText" : "入院护理评估单"
+            }
+        },
+        {
+            "path" : "pages/assessment/inPatient/skinItem",
+            "style" : {
+                "navigationBarTitleText" : "皮肤状况"
+            }
+        },
+        {
+            "path" : "pages/assessment/grading/grading",
+            "style" : {
+				"navigationBarTitleText" : "护理分级评估单"
+			}
+        },
+		{
+		    "path" : "pages/assessment/PHQ9/PHQ9",
+		    "style" : {
+				"navigationBarTitleText" : "PHQ-9抑郁量评估单"
+			}
+		},
+		{
+		    "path" : "pages/assessment/GAD7/GAD7",
+		    "style" : {
+				"navigationBarTitleText" : "广泛性焦虑量表(GAD-7)"
+			}
+		},
+		{
+		    "path" : "pages/assessment/bladder/bladder",
+		    "style" : {
+				"navigationBarTitleText" : "膀胱评估"
+			}
+		},
+		{
+		    "path" : "pages/assessment/intestinal/intestinal",
+		    "style" : {
+				"navigationBarTitleText" : "肠道评估"
+			}
+		},
+		{
+		    "path" : "pages/assessment/nutrition/nutrition",
+		    "style" : {
+				"navigationBarTitleText" : "营养评估"
+			}
+		},
+		{
+		    "path" : "pages/assessment/risk/risk",
+		    "style" : {
+				"navigationBarTitleText" : "风险评估"
+			}
+		},
+		{
+		    "path" : "pages/assessment/MEWS/MEWS",
+		    "style" : {
+				"navigationBarTitleText" : "MEWS评估"
+			}
+		},
+		{
+		    "path" : "pages/advice/list",
+		    "style" : {
+				"navigationBarTitleText" : "医嘱查询"
+			}
+		},
+		{
+		    "path" : "pages/edu/list",
+		    "style" : {
+				"navigationBarTitleText" : "康复宣教",
+				"app-plus" : {
+				    "titleNView" : {
+				        "buttons" : [
+				            {
+				                "text" : "\ue627",
+				                "fontSrc" : "/static/iconfont.ttf",
+				                "fontSize" : "30px",
+				                "color" : "#FFFFFF"
+				            }
+				        ]
+				    }
+				}
+			}
+		},
+		{
+		    "path" : "pages/edu/edu34",
+		    "style" : {
+				"navigationBarTitleText" : "康复宣教评估"
+			}
+		},
+		{
+		    "path" : "pages/edu/edu5",
+		    "style" : {
+				"navigationBarTitleText" : "康复宣教评估",
+				"app-plus" : {
+				    "titleNView" : {
+				        "buttons" : [
+				            {
+				                "text" : "\ue627",
+				                "fontSrc" : "/static/iconfont.ttf",
+				                "fontSize" : "30px",
+				                "color" : "#FFFFFF"
+				            }
+				        ]
+				    }
+				}
+			}
+		},
+		{
+		    "path" : "pages/nursing/list/list",
+		    "style" : {
+				"navigationBarTitleText" : "护理记录",
+				"app-plus" : {
+				    "titleNView" : {
+				        "buttons" : [
+				            {
+				                "text" : "\ue627",
+				                "fontSrc" : "/static/iconfont.ttf",
+				                "fontSize" : "30px",
+				                "color" : "#FFFFFF"
+				            }
+				        ]
+				    }
+				}
+			}
+		},
+		{
+		    "path" : "pages/nursing/fall/fall",
+		    "style" : {
+				"navigationBarTitleText" : "跌倒评估"
+			}
+		},
+		{
+		    "path" : "pages/nursing/fallSupervisor/fallSupervisor",
+		    "style" : {
+				"navigationBarTitleText" : "跌倒预报"
+			}
+		},
+		{
+		    "path" : "pages/nursing/ulcer/ulcer",
+		    "style" : {
+				"navigationBarTitleText" : "压疮评估"
+			}
+		},
+		{
+		    "path" : "pages/nursing/ulcerSupervisor/ulcerSupervisor",
+		    "style" : {
+				"navigationBarTitleText" : "压疮预报"
+			}
+		},
+		{
+		    "path" : "pages/nursing/ulcerSupervisor/ulcerItem",
+		    "style" : {
+				"navigationBarTitleText" : "压疮描述"
+			}
+		},
+		{
+		    "path" : "pages/nursing/transfer/transfer",
+		    "style" : {
+				"navigationBarTitleText" : "转运交接单"
+			}
+		},
+		{
+		    "path" : "pages/nursing/nurseRecording/nurseRecording",
+		    "style" : {
+				"navigationBarTitleText" : "护理记录单"
+			}
+		},
+		{
+		    "path" : "pages/temperature/list",
+		    "style" : {
+				"navigationBarTitleText" : "体温单列表",
+				"app-plus" : {
+				    "titleNView" : {
+				        "buttons" : [
+				            {
+				                "text" : "\ue627",
+				                "fontSrc" : "/static/iconfont.ttf",
+				                "fontSize" : "30px",
+				                "color" : "#FFFFFF"
+				            }
+				        ]
+				    }
+				}
+			}
+		},
+		{
+		    "path" : "pages/temperature/temperature",
+		    "style" : {
+				"navigationBarTitleText" : "体温单"
+			}
+		}
+    ],
+    "globalStyle" : {
+        "navigationBarTextStyle" : "white",
+        "navigationBarTitleText" : "移动护理",
+        "navigationBarBackgroundColor" : "#32CD32",
+        "backgroundColor" : "#F8F8F8"
+    },
+    "tabBar" : {
+        "color" : "#7A7E83",
+        "selectedColor" : "#32CD32",
+        "borderStyle" : "black",
+        "backgroundColor" : "#F8F8F8",
+        "list" : [
+            {
+                "pagePath" : "pages/patientList/patientList",
+                "iconPath" : "static/template.png",
+                "selectedIconPath" : "static/templateHL.png",
+                "text" : "病人列表"
+            },
+            {
+                "pagePath" : "pages/login/login",
+                "iconPath" : "static/template.png",
+                "selectedIconPath" : "static/templateHL.png",
+                "text" : "退出登录"
+            }
+        ]
+    }
+}

@@ -1,0 +1,1 @@
+export const CARD_INIT = 'CARD_INIT'

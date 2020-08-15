@@ -1,0 +1,2 @@
+export const RISK_INIT 			= 'RISK_INIT'
+export const RISK_SUBMIT_BEFORE = 'RISK_SUBMIT_BEFORE'
